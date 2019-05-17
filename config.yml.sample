@@ -1,0 +1,6 @@
+#config.yml
+broker: 'redis://a123456@0.0.0.0:20003/2'
+default_queue: machinery_task=s
+
+result_backend: 'redis://a123456@0.0.0.0:20003/1'
+results_expire_in: 3600000
